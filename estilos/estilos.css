@@ -1,0 +1,90 @@
+.menu-nav ul {
+    display: flex;
+    /* flex: 1; */
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(122, 118, 118); */
+    height: 40px;
+    list-style: none;
+    z-index: 1;
+}
+
+
+.menu-nav{
+    justify-content: space-around;
+    display:flex;
+    width: 100%;
+    z-index: 1;
+
+
+}
+header{
+     position: sticky;
+   /* background-repeat: repeat; */
+   /* height: 200px ; */
+   width: 100%;
+   /* background-color: rgb(107, 109, 109);
+   border: 3px rgb(241, 44, 9))double; */
+}
+.fotom{
+    height: 150px;
+    border-radius: 25%;
+
+}
+.fotofon{
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.menudeest{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.titulo2{
+    align-self: center;
+    color: rgb(255, 3, 3);
+}
+.back{
+height: 100%;
+width: 100%;
+position: absolute;
+z-index: -1;
+
+}
+.titulo3{
+    flex: 1;
+    display: flex;
+    z-index: 1;
+    align-self: center;
+    color: rgb(12, 28, 243);
+}
+.texto1{
+    display: flex;
+    flex: 1;
+    z-index: 1;
+
+}
+.fauna{
+    justify-content: space-around;
+    background-image:image( "../imagenes/felinos/jaguarete2.jpg" );
+    display:flex;
+    width: 100%;
+    z-index: 1;
+
+}
+.fotobak{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+.row{
+    margin: 100px;
+    z-index: 1;
+    background-image:image( "../imagenes/recorridos/historia.jpg" );
+    display: flex;
+    position: absolute;
+}
