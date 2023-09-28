@@ -54,6 +54,7 @@ z-index: -1;
 
 }
 .titulo3{
+    text-align: center;
     flex: 1;
     display: flex;
     z-index: 1;
@@ -61,6 +62,7 @@ z-index: -1;
     color: rgb(12, 28, 243);
 }
 .texto1{
+    /* color: rgb(247, 6, 6); */
     display: flex;
     flex: 1;
     z-index: 1;
@@ -68,7 +70,7 @@ z-index: -1;
 }
 .fauna{
     justify-content: space-around;
-    background-image:image( "../imagenes/felinos/jaguarete2.jpg" );
+    /* background-image:url( "../imagenes/felinos/jaguarete2.jpg" ); */
     display:flex;
     width: 100%;
     z-index: 1;
@@ -84,7 +86,18 @@ z-index: -1;
 .row{
     margin: 100px;
     z-index: 1;
-    background-image:image( "../imagenes/recorridos/historia.jpg" );
+    /* background-image:url( "../imagenes/recorridos/historia.jpg" ); */
     display: flex;
-    position: absolute;
+    position: flex;
+}
+.fotoscar{
+display: flex;
+
+
+}
+.caja1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
