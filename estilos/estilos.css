@@ -1,3 +1,4 @@
+
 .menu-nav ul {
     display: flex;
     /* flex: 1; */
@@ -62,7 +63,8 @@ z-index: -1;
     color: rgb(12, 28, 243);
 }
 .texto1{
-    /* color: rgb(247, 6, 6); */
+    padding: 10px;
+    color: rgb(211, 247, 6);
     display: flex;
     flex: 1;
     z-index: 1;
@@ -71,7 +73,7 @@ z-index: -1;
 }
 .fauna{
     justify-content: space-around;
-    /* background-image:url( "../imagenes/felinos/jaguarete2.jpg" ); */
+    background-image:url( "../imagenes/aventuras/paseos.jpg" );
     display:flex;
     width: 100%;
     z-index: 1;
@@ -85,7 +87,7 @@ z-index: -1;
     width: 100%;
 }
 .row{
-    margin: 50px;
+    /* margin: 50px; */
     z-index: 1;
     /* background-image:url( "../imagenes/recorridos/historia.jpg" ); */
     display: flex;
@@ -97,20 +99,38 @@ display: flex;
 
 }
 .caja1{
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     
 }
 .mallafotos{
-    position: relative;
+    position: absolute;
     display: flex;
 
     z-index: -1;
 }
-.contener{
+.container-img{
+    min-width: 50%;
+}
+.contener div {
     position: relative;
     display: flex;
     flex: 1;
 
+}
+.titulosuplente{
+    text-align: center;
+    flex: 1;
+    display: flex;
+    z-index: 1;
+   align-self: center;
+    color: rgb(12, 243, 12);
+}
+.col{
+    justify-items:auto
+}
+.alojamientos{
+    background-image: url(../imagenes/hoteles/habitaciondoble1);
 }
