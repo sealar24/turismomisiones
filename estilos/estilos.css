@@ -19,8 +19,14 @@
 
 
 }
+.avent{
+    background-image: url(../imagenes/aventuras/paseos.jpg);
+}
 header{
-     position: sticky;
+     position: fixed;
+     display: flex;
+     flex:1;
+     z-index: 5;
    /* background-repeat: repeat; */
    /* height: 200px ; */
    width: 100%;
@@ -79,6 +85,11 @@ z-index: -1;
     z-index: 1;
 
 }
+main{
+    border-top: 250px;
+    padding-top: 100px;
+    position: relative;
+}
 .fotobak{
     display: flex;
     position: absolute;
@@ -105,11 +116,16 @@ display: flex;
     justify-content: center;
     
 }
+.aventura .caja1{
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
 .mallafotos{
-    position: absolute;
-    display: flex;
-
-    z-index: -1;
+    position: relative;
+    /* display: flex; */
+    inset: 0;
+    z-index: 2;
 }
 .container-img{
     min-width: 50%;
@@ -118,7 +134,20 @@ display: flex;
     position: relative;
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
 
+}
+.contener div .container-img{
+    width: min-content;
+
+}
+.contener div .container-img img{
+    width: 100%;
+}
+@media(width>=1000px){
+    .container-img{
+        min-width: 25%;
+    }
 }
 .titulosuplente{
     text-align: center;
@@ -133,4 +162,21 @@ display: flex;
 }
 .alojamientos{
     background-image: url(../imagenes/hoteles/habitaciondoble1);
+}
+.boton{
+    flex: 1;
+    position: fixed;
+    display: flex;
+    position: relative;
+    color: crimson;
+    z-index: 2;
+}
+.escrito{
+    position: relative;
+    flex: 1;
+    z-index: 1;
+}
+footer{
+    background-color: dimgray;
+    
 }
