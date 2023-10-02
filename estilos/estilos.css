@@ -164,11 +164,17 @@ display: flex;
     background-image: url(../imagenes/hoteles/habitaciondoble1);
 }
 .boton{
-    flex: 1;
-    position: fixed;
     display: flex;
-    position: relative;
-    color: crimson;
+    text-align: center;
+    align-items: center;
+    /* background-color: rgb(107, 114, 114); */
+    border: 2px;
+    /* border-color: black; */
+    flex: 1;
+    position: sticky;
+    /* position: relative; */
+    text-decoration: red;
+    
     z-index: 2;
 }
 .escrito{
@@ -180,3 +186,29 @@ footer{
     background-color: dimgray;
     
 }
+.final{
+    text-align: center;
+    flex: 1;
+    display: flex;
+    z-index: 1;
+    align-self: center;
+    color: rgb(12, 28, 243);
+}
+.textof{
+    text-align: center;
+    flex: 1;
+    display: flex;
+    z-index: 1;
+    align-self: center;
+  
+    position: relative;
+    
+
+}
+.generalaloja{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
