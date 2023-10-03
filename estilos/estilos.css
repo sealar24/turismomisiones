@@ -23,15 +23,16 @@
     background-image: url(../imagenes/aventuras/paseos.jpg);
 }
 header{
-     position: fixed;
+    background-image: url(../imagenes/generales/acceso1.jpg);
+    position: fixed;
      display: flex;
      flex:1;
      z-index: 5;
    /* background-repeat: repeat; */
    /* height: 200px ; */
    width: 100%;
-   /* background-color: rgb(107, 109, 109);
-   border: 3px rgb(241, 44, 9))double; */
+   
+  
 }
 .fotom{
     height: 150px;
@@ -52,6 +53,9 @@ header{
 .titulo2{
     align-self: center;
     color: rgb(255, 3, 3);
+}
+.menu{
+    text-decoration: blue;
 }
 .back{
 height: 100%;
@@ -98,9 +102,9 @@ main{
     width: 100%;
 }
 .row{
-    /* margin: 50px; */
+    margin: 50px;
     z-index: 1;
-    /* background-image:url( "../imagenes/recorridos/historia.jpg" ); */
+    background-image:url( "../imagenes/recorridos/historia.jpg" );
     display: flex;
     position: flex;
 }
@@ -210,5 +214,6 @@ footer{
     align-items: center;
     flex-direction: column;
 }
+
 
 
