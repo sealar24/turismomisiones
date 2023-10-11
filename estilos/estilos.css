@@ -16,8 +16,11 @@
     display:flex;
     width: 100%;
     z-index: 1;
-
-
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 .avent{
     background-image: url(../imagenes/aventuras/paseos.jpg);
@@ -102,9 +105,10 @@ main{
     width: 100%;
 }
 .row{
+    
     margin: 50px;
     z-index: 1;
-    background-image:url( "../imagenes/recorridos/historia.jpg" );
+  
     display: flex;
     position: flex;
 }
@@ -166,6 +170,14 @@ display: flex;
 }
 .alojamientos{
     background-image: url(../imagenes/hoteles/habitaciondoble1);
+    background-position: center;
+    background-size: cover;
+
+}
+.textoal{
+    text-decoration: none;
+    color: black;
+    
 }
 .boton{
     display: flex;
@@ -209,7 +221,12 @@ footer{
     
 
 }
-.generalaloja{
+.generalaloja1{
+   background-image: url(../imagenes/recorridos/historia.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    border-image-width: 100% ;
     display: flex;
     align-items: center;
     flex-direction: column;
