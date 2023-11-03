@@ -58,7 +58,9 @@ header{
     color: rgb(255, 3, 3);
 }
 .menu{
-    text-decoration: blue;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 .back{
 height: 100%;
@@ -232,5 +234,9 @@ footer{
     flex-direction: column;
 }
 
-
-
+.tarjetas1{
+    background-image: url(../imagenes/recorridos/historia.jpg);
+}
+.tarjetas2{
+    background-color: dimgray;
+}
