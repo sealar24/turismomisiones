@@ -35,7 +35,7 @@ const btnResumen = document.getElementById('resumen');
             function calcularPago(){
                 let total = cantidad.value * elecPack;
 
-                
+            }
 
     totalPagar.textContent = `Total a Pagar: $ ${total}`;
 
