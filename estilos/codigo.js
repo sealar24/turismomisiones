@@ -1,5 +1,5 @@
 // definir valor del ticket
-const ticket = 200;
+//const ticket = 200;
 
 // definir los descuentos
 
